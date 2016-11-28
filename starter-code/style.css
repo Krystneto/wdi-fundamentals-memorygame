@@ -39,6 +39,10 @@ nav a:hover {
 	background-color: #ee5f3c;
 }
 
+img {
+	max-width: 100%;
+}
+
 .board {
 	height: 50%;
 	width: 45%;
