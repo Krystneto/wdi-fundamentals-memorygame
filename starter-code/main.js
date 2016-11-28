@@ -22,3 +22,16 @@ if (cardThree === cardFour) {
 } else {
 	alert("Sorry, try again.");
 }
+
+
+
+var createCards = function() {
+	var gameBoard = document.getElementById('game-board');
+	for(var i = 0; i < 4; i++ ) {
+	var card = document.createElement('div');
+	card.className = "card";
+	gameBoard.appendChild(card);
+}
+}
+
+createCards();
